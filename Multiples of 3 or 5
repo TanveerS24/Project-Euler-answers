@@ -1,0 +1,13 @@
+//Find the sum of all the multiples of 5 or 3 below 100
+#include <stdio.h>
+int main(){
+    int a=1,sum=0;
+    while(a<10){
+        if(a%3==0 || a%5==0){
+            sum+=a;
+        }
+        a++;
+    }
+    printf("%d",sum);
+    return 0;
+}
