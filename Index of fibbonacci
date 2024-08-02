@@ -1,0 +1,9 @@
+#Find the index of first 4 digit fibonacci no.
+a,b=0,1
+count=2
+while(True):
+    a,b=b,a+b
+    if(b>999):
+        print(count)
+        break
+    count+=1
