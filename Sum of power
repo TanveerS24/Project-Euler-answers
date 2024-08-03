@@ -10,6 +10,6 @@ class SumofPower{
       a+=s%10;
       s/=10;
     }
-    System.out.println(s);
+    System.out.println(a);
   }
 }
