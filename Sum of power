@@ -1,0 +1,15 @@
+//Find the sum of the digits of a number raised to some power
+class SumofPower{
+  public static void main(String[] args){
+    int a=2,p=4,s=1;
+    for(int i=1;i<=p;i++){
+      s*=a;
+    }
+    a=0;
+    while(s!=0){
+      a+=s%10;
+      s/=10;
+    }
+    System.out.println(s);
+  }
+}
